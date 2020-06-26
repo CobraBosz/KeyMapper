@@ -401,7 +401,6 @@
     <string name="action_type_title_application">App</string>
     <string name="action_type_title_application_shortcut">App shortcut</string>
     <string name="action_type_title_key">Key</string>
-    <string name="action_type_title_keycode">Key code</string>
     <string name="action_type_title_system_action">Other</string>
     <string name="action_type_title_text_block">Text</string>
     <string name="action_type_url">URL</string>
@@ -412,7 +411,6 @@
         <item>@string/action_type_title_application</item>
         <item>@string/action_type_title_application_shortcut</item>
         <item>@string/action_type_title_key</item>
-        <item>@string/action_type_title_keycode</item>
         <item>@string/action_type_title_text_block</item>
         <item>@string/action_type_url</item>
         <item>@string/action_type_title_system_action</item>
