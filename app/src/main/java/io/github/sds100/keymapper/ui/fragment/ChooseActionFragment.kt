@@ -61,6 +61,10 @@ class ChooseActionFragment : Fragment() {
                 Action.keyAction(it)
             }
 
+            onModelSelected<Int>(KeycodeListFragment.SAVED_STATE_KEY) {
+                Action.keycodeAction(it)
+            }
+
             onModelSelected<String>(TextBlockActionTypeFragment.SAVED_STATE_KEY) {
                 Action.textBlockAction(it)
             }

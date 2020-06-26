@@ -27,6 +27,12 @@ class ChooseActionPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragme
             KeyActionTypeFragment()
         },
         {
+            KeycodeListFragment().apply {
+                isAppBarVisible = false
+                isInPagerAdapter = true
+            }
+        },
+        {
             TextBlockActionTypeFragment()
         },
         {
@@ -49,6 +55,7 @@ class ChooseActionPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragme
     fun getSearchStateKey(position: Int): String? = when (position) {
         0 -> AppListFragment.SEARCH_STATE_KEY
         1 -> AppShortcutListFragment.SEARCH_STATE_KEY
+        3 -> KeycodeListFragment.SEARCH_STATE_KEY
         6 -> SystemActionListFragment.SEARCH_STATE_KEY
 
         else -> null
